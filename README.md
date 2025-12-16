@@ -51,16 +51,16 @@ hitungAverage.exe
 ### Input
 ```
 Masukkan data
-10
-20
-30
+3
+2
+6
 ```
 
 ### Output
 ```
-Jumlah Angka = 60
+Jumlah Angka = 11
 Banyak Data = 3
-Rata-ratanya = 20
+Rata-ratanya = 3.66667
 ```
 
 ## Struktur Kode
@@ -89,9 +89,6 @@ Rata-ratanya = 20
 3. Menambahkan fitur untuk menghitung median atau modus
 4. Memungkinkan pengguna menentukan banyaknya data yang ingin dimasukkan
 
-## Lisensi
-
-Program ini dibuat untuk tujuan pembelajaran.
 
 ## Kontak
 
