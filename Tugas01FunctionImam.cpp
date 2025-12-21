@@ -12,19 +12,20 @@ void hitungAverage(int jumlah, int banyakData) {
 
 int main() {
     int jumlah = 0;
-    const int banyakData = 3; // Volume data yang akan dimasukkan telah ditetapkan.
+    const int banyakData = 3; // Data yang di masukan telah di tetapkan.
 
     cout << "Masukkan data" << endl;
 
-    // Perulangan untuk menerima masukan dari pengguna.
+    // Perulangan guna menerima masukan oleh pengguna.
     for (int i = 0; i < banyakData; ++i) {
         int input;
         cin >> input;
         jumlah += input;
     }
 
-    // Rutinitas untuk menentukan dan memperlihatkan nilai tengah.
+    // Rutinitas untuk Menemukan dan menampilkan nilai tengah.
     hitungAverage(jumlah, banyakData);
 
     return 0;
 }
+
